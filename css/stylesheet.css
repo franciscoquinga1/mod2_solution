@@ -1,0 +1,98 @@
+h1 {
+    text-align: center;
+  }
+
+p{
+    border: black solid;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.p1_title {
+    background-color: rgb(233, 147, 207);
+    margin: 0% 0% 0% 87%; 
+    width: 46px;
+}
+ 
+.p1_box {
+    background-color: grey;
+    border: 2px solid black;
+    margin: 2% 0% 2% 2%;
+    box-sizing: border-box;
+    padding: 5px;
+
+    
+}
+.p2_title {
+    background-color: rgb(243, 101, 101);
+    width: 40px;
+    margin: 0% 0% 0% 87%; 
+
+}
+
+.p2_box {
+    background-color: grey;
+    border: 2px solid black;
+    margin: 2% 0% 2% 2%;
+    box-sizing: border-box;
+    padding: 5px;
+
+}
+
+.p3_title {
+    background-color: rgb(220, 243, 88);
+    width: 40px;
+    margin: 0% 0% 0% 87%; 
+}
+
+.p3_box {
+    background-color: grey;
+    border: 2px solid black;
+    margin: 2%;
+    box-sizing: border-box;
+    padding: 5px;
+
+}
+
+
+
+/************DESKTOP VIEW*****************/
+@media (min-width:992px){
+    .p1_box, .p2_box, .p3_box{ 
+        float: left;
+        width: 30.63%;
+    }
+}
+
+
+/************TABLET VIEW*****************/
+@media (min-width: 768px) and (max-width:991px) {
+    .p1_box, .p2_box{ 
+        float: left;
+        width: 46.9%;
+    }
+
+    .p3_box{
+        float: left;
+        margin: 0% 2% 2% 2%;
+        width: 96%;
+    }
+
+   
+
+}
+
+/************MOBILE VIEW*****************/
+@media (max-width:767px){
+    .p1_box, .p2_box, .p3_box { 
+        float: left;
+        margin: 2% 2% 0% 2%;
+        width: 96%;
+    }
+
+}
+
